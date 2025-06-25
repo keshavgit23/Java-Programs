@@ -7,7 +7,8 @@ This repository contains beginner-friendly Java programs written using **methods
 - 🔁 **Palindrome Checker**
 - 🔢 **Prime Number Checker**
 - ✖️ **Factorial Calculator**
-
+- ➕️ **Number of Digits Calculator**
+  
 ## 📚 Concepts Used:
 - Java methods (user-defined)
 - Conditional statements
