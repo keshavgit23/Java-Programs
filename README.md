@@ -8,11 +8,14 @@ This repository contains beginner-friendly Java programs written using **methods
 - 🔢 **Prime Number Checker**
 - ✖️ **Factorial Calculator**
 - ➕️ **Number of Digits Calculator**
+- 🟢 **Fibonacci Series**
   
 ## 📚 Concepts Used:
 - Java methods (user-defined)
 - Conditional statements
 - Loops (`for`, `while`)
+- Static Methods
+- Scanner(input handling) 
 - Clean code structure
 
 ---
