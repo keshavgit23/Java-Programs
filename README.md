@@ -9,13 +9,15 @@ This repository contains beginner-friendly Java programs written using **methods
 - ✖️ **Factorial Calculator**
 - ➕️ **Number of Digits Calculator**
 - 🟢 **Fibonacci Series**
+- 🟢 **Armstrong Number**
   
 ## 📚 Concepts Used:
 - Java methods (user-defined)
 - Conditional statements
 - Loops (`for`, `while`)
 - Static Methods
-- Scanner(input handling) 
+- Scanner(input handling)
+- Mathematical Logic
 - Clean code structure
 
 ---
