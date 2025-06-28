@@ -10,7 +10,8 @@ This repository contains beginner-friendly Java programs written using **methods
 - ➕️ **Number of Digits Calculator**
 - 🟢 **Fibonacci Series**
 - 🟢 **Armstrong Number**
-  
+- 🟢 **Strong Number**
+ 
 ## 📚 Concepts Used:
 - Java methods (user-defined)
 - Conditional statements
