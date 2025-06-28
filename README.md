@@ -5,7 +5,7 @@ I am first year BCA student learning Java and building projects.
 This repository is showcase of my learning journey - contains logical programs,core Java concepts.
 
 
-**Topics Covered**
+##Topics Covered##
 
 (1) Logic Building Programs ✅️
 (2) Methods
