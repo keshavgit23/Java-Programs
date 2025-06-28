@@ -1,9 +1,17 @@
-# Java Practice Programs 🚀
+#Java Learnings 🚀
 
 I am first year BCA student learning Java and building projects.
-This repository contains beginner-friendly Java programs written using **methods**, as part of my learning journey in BCA. These programs helped me strengthen my understanding of basic logic and function-based structure in Java.
 
-## ✅ Programs Included:
+This repository is showcase of my learning journey - contains logical programs,core Java concepts.
+
+
+**Topics Covered**
+
+(1) Logic Building Programs ✅️
+(2) Methods
+(3) Array 
+
+##Topic 1:-
 - 🔁 **Palindrome Checker**
 - 🔢 **Prime Number Checker**
 - ✖️ **Factorial Calculator**
@@ -12,7 +20,7 @@ This repository contains beginner-friendly Java programs written using **methods
 - 🟢 **Armstrong Number**
 - 🟢 **Strong Number**
  
-## 📚 Concepts Used:
+## 📚 Concepts Used:-
 - Java methods (user-defined)
 - Conditional statements
 - Loops (`for`, `while`)
@@ -21,7 +29,9 @@ This repository contains beginner-friendly Java programs written using **methods
 - Mathematical Logic
 - Clean code structure
 
----
+##Topic 2:-
+- **Command Line Argument**
+- **Variable Argument**
 
 ## 📌 Why I'm sharing this?
 Learning in public keeps me consistent and motivated. I’m documenting my progress step by step as I grow from beginner to pro 🚀
