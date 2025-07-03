@@ -11,7 +11,7 @@ This repository is showcase of my learning journey - contains logical programs,c
 -(2) Methods ✅️
 -(3) Array ✅️  
 
-##Topic 1:-
+## Topic 1:-
 - 🔁 **Palindrome Checker**
 - 🔢 **Prime Number Checker**
 - ✖️ **Factorial Calculator**
