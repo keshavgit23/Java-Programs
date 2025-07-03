@@ -39,7 +39,7 @@ This repository is showcase of my learning journey - contains logical programs,c
 - **2-D Array**
 - **Basics Of Arrays**
 - **Array Traversal**
-- 
+
 ## 📌 Why I'm sharing this?
 Learning in public keeps me consistent and motivated. I’m documenting my progress step by step as I grow from beginner to pro 🚀
 
