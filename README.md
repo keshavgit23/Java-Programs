@@ -41,6 +41,11 @@ This repository is showcase of my learning journey - contains logical programs,c
 - **Array Traversal**
 - **3-D Array**
 - **Jagged Array**
+- **Arrays Class**
+● asList()
+● binarySearch()
+● compare()
+
 
 ## 📌 Why I'm sharing this?
 Learning in public keeps me consistent and motivated. I’m documenting my progress step by step as I grow from beginner to pro 🚀
