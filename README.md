@@ -45,6 +45,8 @@ This repository is showcase of my learning journey - contains logical programs,c
 ● asList()
 ● binarySearch()
 ● compare()
+● copyOf()
+
 
 
 ## 📌 Why I'm sharing this?
