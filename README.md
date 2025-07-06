@@ -29,6 +29,7 @@ This repository is showcase of my learning journey - contains logical programs,c
 - Mathematical Logic
 - Clean code structure
 - Static Arrays
+- Arrays Class
 
 ## Topic 2:-
 - **Command Line Argument**
