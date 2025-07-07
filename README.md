@@ -47,6 +47,7 @@ This repository is showcase of my learning journey - contains logical programs,c
 ● binarySearch()
 ● compare()
 ● copyOf()
+● copyOfRange()
 
 
 
