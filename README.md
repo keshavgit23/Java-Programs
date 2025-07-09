@@ -50,7 +50,10 @@ This repository is showcase of my learning journey - contains logical programs,c
 ● copyOfRange()
 ● deepEquals()
 ● deepHashCode()
-● equals()
+● deepToString()
+● parallelSort()
+● sort(range)
+● sort()
 
 
 
