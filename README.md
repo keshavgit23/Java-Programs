@@ -54,6 +54,10 @@ This repository is showcase of my learning journey - contains logical programs,c
 ● parallelSort()
 ● sort(range)
 ● sort()
+● equals()
+● fill()
+● mismatch()
+
 
 
 
