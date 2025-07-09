@@ -48,6 +48,10 @@ This repository is showcase of my learning journey - contains logical programs,c
 ● compare()
 ● copyOf()
 ● copyOfRange()
+● deepEquals()
+● deepHashCode()
+● equals()
+
 
 
 
