@@ -116,3 +116,60 @@ class Main
 
 	}
 }
+
+//Custom Class sorting using lambda expression
+import java.util.Arrays;
+import java.util.Collections;
+class Student{
+int marks;
+
+   Student(int marks)
+   {
+       this.marks = marks;
+   }
+   
+   public String toString()
+   {
+        return String.valueOf(marks);
+   }
+   
+   public static void main(String[] args)
+   {
+    Student[] marks = {
+        new Student(99),
+        new Student(78),
+        new Student(89),
+        new Student(75),
+        new Student(67),
+        new Student(90),
+        new Student(45),
+        new Student(69),
+    };
+    
+   Arrays.sort(marks,(s1,s2)->s1.marks-s2.marks);
+   System.out.println("Student Marks sorted in Ascending order:"+Arrays.toString(marks));
+   Arrays.sort(marks,(s1,s2)->s2.marks-s1.marks);
+    System.out.println("Student Marks sorted in Dscending order:" + Arrays.toString(marks));
+    
+      //Output:
+     //Student Marks sorted in Ascending order:[45, 67, 69, 75, 78, 89, 90, 99]
+    //Student Marks  sorted in Dscending order:[99, 90, 89, 78, 75, 69, 67, 45]
+   }
+}
+
+// Converting primitive type int[] to wrapper class Integer[]
+import java.util.Arrays;
+import java.util.Collections;
+class Main{
+
+ public static void main(String[] args)
+ {
+   int[] arr = {1,2,4,7,4,8,4,9,5,3};
+   
+   Integer[] boxed = Arrays.stream(arr).boxed().toArray(Integer[]::new);
+   
+   Arrays.sort(boxed);
+   System.out.println("Converted int[] to Integer[] array:"+ Arrays.toString(boxed));
+   //Output: Converted int[] to Integer[] array:[1, 2, 3, 4, 4, 4, 5, 7, 8, 9]
+
+  }
