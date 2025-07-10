@@ -98,3 +98,21 @@ import java.util.Arrays;
 	  System.out.println("Element at index: "+ Arrays.binarySearch(intArr,0,4,intKey));
 	}
 }
+
+//Reverse Order String Sort
+import java.util.Arrays;
+import java.util.Collections;
+class Main
+{
+	public static void main (String[] args)
+	{
+	    String[] arr = {"Van","Car","Bus","Vehicle","Airplane"}; 
+	    
+	    Arrays.sort(arr,Collections.reverseOrder());
+	    
+	    System.out.println("String array sorted in descending order:"+ Arrays.toString(arr));
+	    
+	    //Output: String array sorted in descending order:[Vehicle, Van, Car, Bus, Airplane]
+
+	}
+}
