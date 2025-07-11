@@ -57,6 +57,7 @@ This repository is showcase of my learning journey - contains logical programs,c
 ● equals()
 ● fill()
 ● mismatch()
+- **Comparator Sorting**
 
 
 
