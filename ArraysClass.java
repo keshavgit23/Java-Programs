@@ -173,3 +173,90 @@ class Main{
    //Output: Converted int[] to Integer[] array:[1, 2, 3, 4, 4, 4, 5, 7, 8, 9]
 
   }
+
+	
+//This program sorts staff objects on basis of id,name,designation using comparator implementations
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Collections;
+import java.util.*;
+
+class Staff
+{
+    int id;
+    String name;
+    String designation;
+    
+    Staff(int id,String name,String designation)
+    {
+        this.id =id;
+        this.name=name;
+        this.designation=designation;
+    }
+    
+    public String toString()
+    {
+        return id+" "+name+" "+designation+" ";
+    }
+    
+}
+    class sortById implements
+     Comparator<Staff>
+     {
+         public int compare(Staff a,Staff b)
+         {
+             return a.id-b.id;
+         }
+     }
+     
+     class sortByName implements
+     Comparator<Staff>{
+         public int compare(Staff a,Staff b)
+         {
+             return a.name.compareTo(b.name);
+         }
+     }
+     
+     class sortByDesignation implements
+     Comparator<Staff>{
+         public int compare(Staff a, Staff b)
+         {
+             return a.designation.compareTo(b.designation);
+         }
+     }
+     
+     public class Main{
+         
+	public static void main (String[] args)
+	{
+	  List<Staff>list = new ArrayList<>();
+	  list.add(new Staff(104,"Raju","Data Engineer"));
+	  list.add(new Staff(102,"Kartik","Manager"));
+	  list.add(new Staff(109,"Vipul","Assistant Manager"));
+	  list.add(new Staff(105,"Vishal","Software Devloper"));
+	  
+	  System.out.println("Sorted By ID:");
+	  Collections.sort(list, new sortById());
+	  for(Staff s:list)
+	  {
+	      System.out.println(s);
+	  }
+	  
+	  System.out.println("\n");
+	  System.out.println("Sorted by Name:");
+	  Collections.sort(list, new sortByName());
+	  for(Staff s:list)
+	  {
+	      System.out.println(s);
+	  }
+	  System.out.println("\n");
+	  
+	   System.out.println("Sorted by Designation:");
+	  Collections.sort(list, new sortByDesignation());
+	  for(Staff s:list)
+	  {
+	      System.out.println(s);
+	  }
+	  
+	  }
+     }
