@@ -13,10 +13,10 @@ class SpliteratorExample
 	    split2.forEachRemaining(n ->System.out.println("Part 2:"+ n));
 	    
 	    /* Output:Part 1:30
-                Part 1:40
-                Part 1:50
-                Part 2:10
-                Part 2:20 
+                Part1 :40
+                Part2 :50
+                Part2 :10
+                Part2 :20 
         */
 	}
 }
