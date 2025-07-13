@@ -58,6 +58,9 @@ This repository is showcase of my learning journey - contains logical programs,c
 ● fill()
 ● mismatch()
 - **Comparator Sorting**
+- **SpliteratorExample**
+- **tryspilt()**
+- **FinalArray**
 
 
 
