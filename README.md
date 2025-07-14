@@ -10,6 +10,7 @@ This repository is showcase of my learning journey - contains logical programs,c
 -(1) Logic Building Programs ✅️
 -(2) Methods ✅️
 -(3) Array ✅️  
+-(4) Strings(learning)
 
 ## Topic 1:-
 - 🔁 **Palindrome Checker**
@@ -61,6 +62,9 @@ This repository is showcase of my learning journey - contains logical programs,c
 - **SpliteratorExample**
 - **tryspilt()**
 - **FinalArray**
+- **ArrayStream**
+- **forEach()**
+
 
 
 
