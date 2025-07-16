@@ -65,6 +65,9 @@ This repository is showcase of my learning journey - contains logical programs,c
 - **ArrayStream**
 - **forEach()**
 
+## Topic 4:-
+- **CharSequence**
+
 
 
 
