@@ -1,0 +1,35 @@
+import java.lang.*;
+import java.io.*;
+import java.util.Scanner;
+
+class Main
+{
+	public static void main (String[] args) 
+	{
+	    Scanner sc = new Scanner(System.in);
+		String str1 = "Course-";
+		String str2 = "BCA";
+		
+	    String str3 = str1.concat(str2);
+		System.out.println(str3);
+		
+		System.out.println("Enter Name:");
+	    String name = sc.next();
+		String str4 = "Name:"+ name+" ";
+	    
+	    System.out.println("Enter Roll No:");
+	    System.out.println();
+	    int rollNo = sc.nextInt();
+	 
+	    String str5 = "Roll No:"+rollNo;
+	 
+        String str6 = str4.concat(str5);
+        System.out.println(str6);
+        System.out.println();
+        sc.close();
+	    
+		}
+    
+}
+
+#Added Reverse String program
