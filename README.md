@@ -70,6 +70,7 @@ This repository is showcase of my learning journey - contains logical programs,c
 - **CharSequence**
 - **Immutable String**
 - **String Constructors**
+- **String Methods**
 
 
 
