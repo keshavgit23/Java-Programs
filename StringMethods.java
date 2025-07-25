@@ -169,4 +169,106 @@ class Main
       //str1 is equal to str3 = false
       
 	}
+	
+//trim() method:-
+//Variant 1:-
+
+import java.io.*;
+
+class Main {
+    
+    public static void main (String[] args) {
+      
+          // Three strings declared
+          String x = "pali ";
+          String y = "  ndr ";
+          String z = " ome";
+      
+          // Printing without trim function
+          System.out.println(x + y + z);
+      
+          // Using trim function to get result
+          System.out.println(x.trim() + y.trim() + z.trim());
+    //Output:
+  //pali ndr ome
+//palindrome
+    }
+}
+
+//Variant 2:-
+//Original String v/s Trimmed String
+
+public class Trim {
+  
+    public static void main(String args[]) {
+      
+        // String with leading and trailing spaces
+        String s = "  Hello Java Programming  ";
+        // Printing String after removing the whitespaces
+        System.out.println("Trimmed string: \n" + s.trim());
+
+        // Printing string to observe original string
+        System.out.println("Original String: \n" + s);
+
+    //Trimmed string: 
+  //Hello Java Programming 
+//Original String:
+//  Hello Java Programming 
+    }
+		  }
+}
+
+
+//toLowercase(Locale loc):-
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+import java.util.Locale;
+
+class Main
+{
+	public static void main (String[] args) 
+	{
+		String s = "I LIke CodIng";
+		
+		Locale ENGLISH = Locale.forLanguageTag("en");
+		Locale TURKISH = Locale.forLanguageTag("tr");
+		
+	  String str1 = s.toLowerCase(ENGLISH );
+	  String str2 = s.toLowerCase(TURKISH);
+	  
+	  System.out.println("English: " + str1 + "\n" + "Turkish: " + str2);
+		
+		
+        	//Output English: i like coding
+           // Turkish: ı lıke codıng
+
+	}
+}
+
+//9) toUpperCase(Locale loc):-
+import java.util.Locale;
+
+class Geeks 
+{
+    public static void main(String args[]) 
+    {
+        // Custom input string
+        String str = "i love coding";
+
+        // Locales with the language "tr" for TURKISH
+        //"en" for ENGLISH is created
+        Locale TURKISH = Locale.forLanguageTag("tr");
+        Locale ENGLISH = Locale.forLanguageTag("en");
+
+        // Converting string str to uppercase letter
+        // using TURKISH and ENGLISH language
+        String strup1 = str.toUpperCase(TURKISH);
+        String strup2 = str.toUpperCase(ENGLISH);
+      
+        System.out.println(strup1);
+        System.out.println(strup2);
+     // Turkish: İ LOVE CODİNG 
+    // English:  I LOVE CODING
+    }
 }
