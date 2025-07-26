@@ -246,7 +246,7 @@ class Main
 	}
 }
 
-//9) toUpperCase(Locale loc):-
+//toUpperCase(Locale loc):-
 import java.util.Locale;
 
 class Geeks 
@@ -272,3 +272,27 @@ class Geeks
     // English:  I LOVE CODING
     }
 }
+
+//String replace():-
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Main
+{
+	public static void main (String[] args) 
+	{
+		String originalString = "Java Programming language";
+		
+		String replacedString = originalString.replace("a","m");
+		
+	System.out.println("Original String: " + originalString + "\n");
+		System.out.println("Replace o with m in Original String: " + "\n" + replacedString);
+		
+		String str = "Python";
+		String newReplaced = originalString.replace("Java",str);
+		System.out.println("After replacing Java with Python: "+ newReplaced);
+	}
+}
+
