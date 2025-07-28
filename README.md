@@ -71,7 +71,7 @@ This repository is showcase of my learning journey - contains logical programs,c
 - **Immutable String**
 - **String Constructors**
 - **String Methods**
-
+- **StringBuffer Class**
 
 
 
