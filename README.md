@@ -72,6 +72,7 @@ This repository is showcase of my learning journey - contains logical programs,c
 - **String Constructors**
 - **String Methods**
 - **StringBuffer Constructors**
+- **StringBuffer Methods()**
 
 
 
