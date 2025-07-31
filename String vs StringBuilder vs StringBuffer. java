@@ -1,0 +1,29 @@
+public class Main {
+  
+    public static void main(String[] args) {
+      
+        //input string
+        String s = "Java";
+
+        // Converting String object to StringBuffer object
+        // by creating object of StringBuffer class
+        StringBuffer sbr = new StringBuffer(s);
+
+        sbr.reverse();
+
+        // Printing the reversed string
+        System.out.println(sbr);
+
+        // Converting String object to StringBuilder object
+        StringBuilder sbl = new StringBuilder(s);
+
+        // Adding it to string using append() method
+        sbl.append("Programming");
+
+        // Print and display the above appended string
+        System.out.println(sbl);
+    }
+}
+
+   //avaJ
+  //JavaProgramming
