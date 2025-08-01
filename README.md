@@ -20,7 +20,7 @@ This repository is showcase of my learning journey - contains logical programs,c
 - 🟢 **Fibonacci Series**
 - 🟢 **Armstrong Number**
 - 🟢 **Strong Number**
-- 🟢 **Pythagoras Thererom**
+- 🟢 **Pythagoras Theorem**
  
 ## 📚 Concepts Used:-
 - Java methods (user-defined)
