@@ -109,4 +109,75 @@ class Main
       i:1
       n:1*/
 
+// 5) Removing leading zeros  from a string:-
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Main
+{
+    static void leadingZeros(String s,StringBuffer sb)
+    {
+        int i;
+        
+        for(i=0;i<s.length() && s.charAt(i)=='0';i++){
+    
+           }
+        
+        sb.replace(0,i,"");
+        
+        System.out.println("After removing leading zeros: " + sb.toString());
+    }
+	public static void main (String[] args)
+	{
+	  Scanner sc = new Scanner(System.in );
+	  System.out.println("Enter a String: ");
+	  String s = sc.next();
+	  
+	  StringBuffer sb = new StringBuffer(s);
+	  leadingZeros(s,sb);
+	  sc.close();
+	  
+	  /*Enter a String: 
+After removing leading zeros: 728383*/
+
+	}
+}
+
+// 6)Swap strings without using third variable:-
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Main
+{
+	public static void main (String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter first String");
+		String firstString = sc.next();
+		System.out.println("Enter Second String");
+		String secondString = sc.next();
+		System.out.println("Before Swapping:");
+		System.out.println("First String = " + firstString);
+		System.out.println("Second String = " + secondString);
+		
+		String c= firstString.concat(secondString);
+		
+		System.out.println("After Swapping:");
+		String a = c.substring(firstString.length());
+		System.out.println("First String = " + a);
+		String b = c.substring(0,firstString.length());
+		System.out.println("Second String = " + b);
+		sc.close();
+
+	}
+}
+ /* Before Swapping:
+First String = Java
+Second String = Programming
+After Swapping:
+First String = Programming
+Second String = Java */
 
