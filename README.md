@@ -7,10 +7,11 @@ This repository is showcase of my learning journey - contains logical programs,c
 
 ## Topics Covered
 
--**(1) Logic Building Programs ✅️**
--**(2) Methods ✅️**
--**(3) Array ✅️**
--**(4) Strings(learning)**
+- **(1) Logic Building Programs ✅️**
+- **(2) Methods ✅️**
+- **(3) Array ✅️**
+- **(4) Strings ✅️**
+- **(5) Object Oriented Programming(OOP)**
 
 ## Topic 1:-
 - 🔁 **Palindrome Checker**
@@ -74,6 +75,9 @@ This repository is showcase of my learning journey - contains logical programs,c
 - **String Methods**
 - **StringBuffer Constructors**
 - **StringBuffer Methods()**
+
+## Topic 5:-
+- **Access Modifiers**
 
 
 
