@@ -78,6 +78,7 @@ This repository is showcase of my learning journey - contains logical programs,c
 
 ## Topic 5:-
 - **Access Modifiers**
+- **Getter and Setter method()**
 
 
 
