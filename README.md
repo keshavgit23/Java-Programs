@@ -80,6 +80,7 @@ This repository is showcase of my learning journey - contains logical programs,c
 - **Access Modifiers**
 - **Getter and Setter method()**
 - **Abstraction**
+- **Polymorphism**
 
 
 
