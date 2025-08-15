@@ -12,6 +12,7 @@ This repository is showcase of my learning journey - contains logical programs,c
 - **(3) Array ✅️**
 - **(4) Strings ✅️**
 - **(5) Object Oriented Programming(OOP)**
+- **(6) Edge Cases handling**
 
 ## Topic 1:-
 - 🔁 **Palindrome Checker**
