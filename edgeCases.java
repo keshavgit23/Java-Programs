@@ -81,3 +81,65 @@ class Main
   sc.close();
 	}
 }
+
+// K-Patttern printing with user input symbols
+// With Min & Max Size
+import java.util.*;
+
+class PatternPrinting
+{ 
+    public static void main (String[] args)
+	{
+	  Scanner sc = new Scanner(System.in);
+	  System.out.println("Program to print K-star Pattern! ");
+	  
+	  System.out.println("Enter the size of Pattern: ");
+	  
+	  int size=0;
+	 
+	 final int MIN_SIZE = 2;
+	 final int MAX_SIZE = 100;
+	 try{
+	      size = sc.nextInt();
+	   }  catch(InputMismatchException e)
+	     {
+	         System.out.println("Enter a Valid Integer Input! ");
+	        return;
+	     }
+	     
+	      if(size<MIN_SIZE||size>MAX_SIZE){
+	     System.out.println("Enter size between 2-100 ");
+	     return;
+     	 }
+	   
+    	 System.out.println("Enter Any Symbol!");
+    	 char ch = sc.next().charAt(0);
+    	 
+    	 PatternPrinting p = new PatternPrinting();
+    	 p.kPattern(size,ch);
+	 
+	 sc.close();
+	}
+	
+	 public void kPattern(int size, char ch)
+	 {
+     
+     for(int i=1;i<=size;i++)
+     {
+         for(int j=i;j<=size;j++)
+         {
+             System.out.print(ch+" ");
+         }
+         System.out.println();
+     }
+     for(int i=2;i<=size;i++)
+     {
+         for(int j=1;j<=i;j++)
+         {
+             System.out.print(ch+" ");
+         }
+         System.out.println();
+     }
+     
+  }
+}
