@@ -68,6 +68,7 @@ This repository is showcase of my learning journey - contains logical programs,c
 - **ArrayStream**
 - **forEach()**
 - **BubbleSort**
+- **QuickSort**
 
 ## Topic 4:-
 - **CharSequence**
