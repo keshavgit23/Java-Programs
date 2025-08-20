@@ -83,6 +83,7 @@ This repository is showcase of my learning journey - contains logical programs,c
 - **Getter and Setter method()**
 - **Abstraction**
 - **Polymorphism**
+- **Object Class**
 
 
 
