@@ -84,6 +84,7 @@ This repository is showcase of my learning journey - contains logical programs,c
 - **Abstraction**
 - **Polymorphism**
 - **Object Class**
+- **Nested Classes**
 
 
 
