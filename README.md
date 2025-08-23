@@ -85,6 +85,8 @@ This repository is showcase of my learning journey - contains logical programs,c
 - **Polymorphism**
 - **Object Class**
 - **Nested Classes**
+- **Inner Local Class**
+- **Anonymous Local Class**
 
 
 
