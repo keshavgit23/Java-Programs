@@ -88,6 +88,7 @@ This repository is showcase of my learning journey - contains logical programs,c
 - **Inner Local Class**
 - **Anonymous Local Class**
 - **Composition**
+- **Enum**
 
 
 
