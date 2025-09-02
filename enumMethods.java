@@ -59,3 +59,38 @@ enum IceCream
             }
         }
   }
+ // Enum with abstract methods:-
+
+enum IceCream
+{
+    
+    VANILLA{
+        @Override
+        public void price()
+          {
+              System.out.println("Price of Vanilla IceCream is 50 rs");
+          }
+    },
+    CHOCOLATE{
+        @Override
+        public void price()
+        {
+            System.out.println("Price of Chocolate IceCream is 100 rs");
+        }
+    },
+    STRAWBERRY{
+        @Override
+        public void price()
+          {
+              System.out.println("Price of Strawberry Ice-Cream is 70 rs");
+          }
+    };
+   public abstract void price();
+}
+class enumOverriding{
+    public static void main(String[] args){
+        IceCream.VANILLA.price();
+        IceCream.CHOCOLATE.price();
+        IceCream.STRAWBERRY.price();
+    }
+}
