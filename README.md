@@ -90,6 +90,7 @@ This repository is showcase of my learning journey - contains logical programs,c
 - **Composition**
 - **Enum**
 - **InterfaceExamples**
+- **Functional Interface**
 
 
 
