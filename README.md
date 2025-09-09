@@ -91,6 +91,9 @@ This repository is showcase of my learning journey - contains logical programs,c
 - **Enum**
 - **InterfaceExamples**
 - **Functional Interface**
+● Consumer Interface
+● Predicate Interface
+● Function Interface
 
 
 
